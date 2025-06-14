@@ -1,0 +1,114 @@
+{
+  "basics": {
+    "name": "Kelvin Ho",
+    "label": "Programmer",
+    "image": "placeholder.jpg",
+    "email": "kakitkelvinho@gmail.com",
+    "phone": "(43) 6704014980",
+    "summary": "",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "kakitkelvinho",
+        "url": "https://www.linkedin.com/in/kakitkelvinho/"
+      },
+      {
+        "network": "GitHub",
+        "username": "kakitkelvinho",
+        "url": "https://github.com/kakitkelvinho/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "University of Innsbruck",
+      "position": "PhD Researcher / University Assistant (Pre-Doc)",
+      "startDate": "2024-01-15",
+      "endDate": "2025-08-31",
+      "summary": "Thesis topic: Quantum optomechanics with levitated nanospheres.",
+      "highlights": [
+        "Designed and implemented improvements to complex optical and electronic systems",
+        "Characterized and improved lock loops (PID control) for cavity stabilization",
+        "Constructed experimental and data analysis pipelines"
+      ]
+    },
+    {
+      "name": "University College London",
+      "position": "Research Assistant / Master's Student",
+      "startDate": "2022-08-15",
+      "endDate": "2023-12-31",
+      "summary": "",
+      "highlights": [
+        "Independently constructed full experimental Optical Centrifuge setup",
+        "Presented results to other European institutions",
+        "Contributed to upcoming publication on the experiment"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University College London",
+      "area": "Theoretical Physics",
+      "studyType": "MSci (Bachelors integrated)",
+      "startDate": "2019-09-01",
+      "endDate": "2023-06-09",
+      "score": "First Class with Honours (Highest possible grade)"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Hong Kong Scholarship of Excellence",
+      "date": "2019-08-24",
+      "awarder": "Hong Kong Government",
+      "summary": "Full scholarship which covered all 4 years of tuition for my degree at UCL."
+    },
+    {
+      "title": "Senior Mentor Administrative Excellence",
+      "date": "2023-01-14",
+      "awarder": "University Collge London",
+      "summary": "For outstanding organization and administration of the mentorship program at UCL."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Cantonese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Limited working proficiency"
+    },
+    {
+      "language": "French",
+      "fluency": "Limited working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ]
+}

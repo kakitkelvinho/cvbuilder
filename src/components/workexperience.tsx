@@ -3,6 +3,7 @@ import SubHeader from "@/subcomponents/subheader";
 type Experience = {
   title: string;
   location: string;
+  institution: string;
   date: string;
   achievements: string[];
 }
@@ -33,8 +34,9 @@ function WorkItem({ experience }: { experience: Experience }) {
 
 const phd: Experience = {
   title: "PhD Student",
-  location: "University of Innsbruck",
-  date: "JAN 2024 - PRESENT",
+  location: "Innsbruck, Austria",
+  institution: "University of Innsbruck",
+  date: "Jan 2024 - Present",
   achievements: [
     "Design and improve existing electronics for cavity locking",
     "Software engineering for experimental data analysis",
@@ -44,24 +46,24 @@ const phd: Experience = {
 
 const uclRA: Experience = {
   title: "Research Assistant",
-  location: "University College London",
-  date: "AUG 2023 - DEC 2024",
+  institution: "University College London",
+  location: "London, United Kingdom",
+  date: "Aug 2023 - Dec 2024",
   achievements: [
     "Independently constructed full experimental Optical Centrifuge setup",
     "Presented work to other institutes across Europe",
     "Contributed to upcoming publication on the experiment",
-    "On-boarded new members"
   ]
 }
 
 const cityuTA: Experience = {
   title: "Technical Assistant",
-  location: "City University of Hong Kong",
-  date: "JUN 2021 - SEP 2022",
+  institution: "City University of Hong Kong",
+  location: "Hong Kong, China",
+  date: "Jun 2021 - Sep 2022",
   achievements: [
     "Desgned and built a remote controlled antenna measurement platform",
     "Protyped and presented a modular IoT weather station to an interational STEM toys company",
-    "Indepedently designed a novel lens antenna",
-    "Published peer-review paper as first author"
+    "Indepedently designed a novel lens antenna and published results in peer-reviewed journal"
   ]
 }
