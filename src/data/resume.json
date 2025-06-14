@@ -37,11 +37,21 @@
       "position": "Research Assistant / Master's Student",
       "startDate": "2022-08-15",
       "endDate": "2023-12-31",
-      "summary": "",
       "highlights": [
         "Independently constructed full experimental Optical Centrifuge setup",
         "Presented results to other European institutions",
         "Contributed to upcoming publication on the experiment"
+      ]
+    },
+    {
+      "name": "City University of Hong Kong",
+      "position": "Technical Assistant",
+      "startDate": "2020-06-01",
+      "endDate": "2021-09-17",
+      "highlights": [
+        "Desgned and built a remote controlled antenna measurement platform",
+        "Protyped and presented a modular IoT weather station to an interational STEM toys company",
+        "Indepedently designed a novel lens antenna and published results in peer-reviewed journal"
       ]
     }
   ],
@@ -49,7 +59,7 @@
     {
       "institution": "University College London",
       "area": "Theoretical Physics",
-      "studyType": "MSci (Bachelors integrated)",
+      "studyType": "MSci (Integrated masters and bachelor)",
       "startDate": "2019-09-01",
       "endDate": "2023-06-09",
       "score": "First Class with Honours (Highest possible grade)"
