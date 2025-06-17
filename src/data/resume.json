@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Kelvin Ho",
-    "label": "Programmer",
-    "image": "placeholder.jpg",
+    "label": "PhD Researcher",
+    "image": "/placeholder.jpg",
     "email": "kakitkelvinho@gmail.com",
     "phone": "(43) 6704014980",
     "summary": "",
@@ -23,6 +23,7 @@
     {
       "name": "University of Innsbruck",
       "position": "PhD Researcher / University Assistant (Pre-Doc)",
+      "location": "Innsbruck, Austria",
       "startDate": "2024-01-15",
       "endDate": "2025-08-31",
       "summary": "Thesis topic: Quantum optomechanics with levitated nanospheres.",
@@ -35,6 +36,7 @@
     {
       "name": "University College London",
       "position": "Research Assistant / Master's Student",
+      "location": "London, United Kingdom",
       "startDate": "2022-08-15",
       "endDate": "2023-12-31",
       "highlights": [
@@ -46,10 +48,11 @@
     {
       "name": "City University of Hong Kong",
       "position": "Technical Assistant",
+      "location": "Hong Kong, China",
       "startDate": "2020-06-01",
       "endDate": "2021-09-17",
       "highlights": [
-        "Desgned and built a remote controlled antenna measurement platform",
+        "Designed and built a remote controlled antenna measurement platform",
         "Protyped and presented a modular IoT weather station to an interational STEM toys company",
         "Indepedently designed a novel lens antenna and published results in peer-reviewed journal"
       ]
@@ -59,57 +62,94 @@
     {
       "institution": "University College London",
       "area": "Theoretical Physics",
-      "studyType": "MSci (Integrated masters and bachelor)",
+      "location": "London, United Kingdom",
+      "studyType": "MSci",
       "startDate": "2019-09-01",
       "endDate": "2023-06-09",
       "score": "First Class with Honours (Highest possible grade)"
+    },
+    {
+      "institution": "Po Leung Kuk Choi Kai Yau School",
+      "area": "Primary and Secondary School",
+      "location": "Hong Kong, China",
+      "studyType": "",
+      "startDate": "2007-09-01",
+      "endDate": "2019-06-09",
+      "score": "International Baccalaureate Diploma: 43/45"
     }
   ],
   "awards": [
     {
       "title": "Hong Kong Scholarship of Excellence",
       "date": "2019-08-24",
+      "location": "Hong Kong, China",
       "awarder": "Hong Kong Government",
       "summary": "Full scholarship which covered all 4 years of tuition for my degree at UCL."
     },
     {
       "title": "Senior Mentor Administrative Excellence",
       "date": "2023-01-14",
+      "location": "London, United Kingdom",
       "awarder": "University Collge London",
       "summary": "For outstanding organization and administration of the mentorship program at UCL."
     }
   ],
   "skills": [
     {
+      "name": "Optical Engineering",
+      "level": "Experienced",
+      "keywords": [
+        "Optics",
+        "Optomechanics",
+        "Laser beam shaping",
+        "Optical fibers",
+        "Experiment design and construction",
+        "Data analysis"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Experienced",
+      "keywords": [
+        "Python",
+        "MATLAB",
+        "Mathematica",
+        "C",
+        "Git",
+        "Latex"
+      ]
+    },
+    {
       "name": "Web Development",
-      "level": "Master",
+      "level": "Intermediate",
       "keywords": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "TypeScript",
+        "React"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     {
       "language": "Cantonese",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     {
       "language": "Mandarin",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     {
       "language": "German",
-      "fluency": "Limited working proficiency"
+      "fluency": "Conversational"
     },
     {
       "language": "French",
-      "fluency": "Limited working proficiency"
+      "fluency": "Conversational"
     }
   ],
   "interests": [
