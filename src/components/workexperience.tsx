@@ -26,7 +26,7 @@ function Job({ job }: { job: JobFormat }) {
   return (
     <div>
       <article><SubHeader {...job} /></article>
-      <ul className="list-disc list-inside">
+      <ul className="list-disc pl-6">
         {
           job.highlights.map((highlight: string, index: number) => <li key={index}>{highlight}</li>)
         }
