@@ -1,4 +1,3 @@
-import DateProcessing from "@/subcomponents/dateprocessing";
 import SubHeader from "@/subcomponents/subheader";
 
 type EducationFormat = {
