@@ -1,4 +1,5 @@
 import DateProcessing from "@/subcomponents/dateprocessing";
+import SubHeader from "@/subcomponents/subheader";
 
 type EducationFormat = {
   institution: string;
@@ -22,10 +23,8 @@ export default function Education({ education }: { education: EducationFormat[] 
 function Degree({ degree }: { degree: EducationFormat }) {
   return (
     <>
-      <h3 className="font-bold text-lg">{degree.institution}, {degree.area} {degree.studyType}</h3>
-      <h3 className="italic">{DateProcessing(degree.startDate)} to {DateProcessing(degree.endDate)}</h3>
-      <h3>{degree.score}</h3>
-      <h3 className="italic">{degree.location}</h3>
+      <SubHeader position={`${degree.area}, ${degree.studyType}`} location={degree.location} startDate={degree.startDate} endDate={degree.endDate} name={degree.institution} />
+      <p>{degree.score}</p>
     </>
   )
 }

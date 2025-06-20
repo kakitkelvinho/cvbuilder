@@ -2,6 +2,7 @@ import Image from "next/image";
 
 type Profile = {
   network: string;
+  logo?: string;
   username: string;
   url: string;
 }
@@ -29,8 +30,8 @@ export default function MainHeader({ basics }: { basics: Basics }) {
           </div>
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2 text-sm">
             {basics.profiles.map((profile: Profile, index: number) => (
-              <p key={index}>
-                <span className="font-medium">{profile.network}:</span>{" "}
+              <p key={index} className="flex items-center gap-1">
+                <LogoRender profile={profile} />
                 <a href={profile.url} target="_blank" rel="noopener noreferrer" className="underline">
                   {profile.url}
                 </a>
@@ -49,4 +50,21 @@ export default function MainHeader({ basics }: { basics: Basics }) {
       </div>
     </>
   )
+}
+
+function LogoRender({ profile }: { profile: Profile }) {
+  if (profile.logo) {
+    return (
+      <Image
+        src={profile.logo}
+        alt={`${profile.network} logo`}
+        width={16}
+        height={16}
+      />);
+  }
+  else {
+    return (
+      <span className="font-medium">{profile.network}:</span>
+    );
+  }
 }

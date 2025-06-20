@@ -9,13 +9,20 @@
     "profiles": [
       {
         "network": "LinkedIn",
+        "logo": "/LI-In-Bug.png",
         "username": "kakitkelvinho",
         "url": "https://www.linkedin.com/in/kakitkelvinho/"
       },
       {
         "network": "GitHub",
+        "logo": "/github-mark.png",
         "username": "kakitkelvinho",
         "url": "https://github.com/kakitkelvinho/"
+      },
+      {
+        "network": "Website",
+        "username": "kakitkelvinho",
+        "url": "https://kakitkelvinho.github.io/cvbuilder/"
       }
     ]
   },
@@ -72,7 +79,7 @@
       "institution": "Po Leung Kuk Choi Kai Yau School",
       "area": "Primary and Secondary School",
       "location": "Hong Kong, China",
-      "studyType": "",
+      "studyType": "IBDP",
       "startDate": "2007-09-01",
       "endDate": "2019-06-09",
       "score": "International Baccalaureate Diploma: 43/45"
