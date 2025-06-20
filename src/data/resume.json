@@ -2,20 +2,20 @@
   "basics": {
     "name": "Kelvin Ho",
     "label": "PhD Researcher",
-    "image": "/placeholder.jpg",
+    "image": "placeholder.jpg",
     "email": "kakitkelvinho@gmail.com",
     "phone": "(43) 6704014980",
     "summary": "",
     "profiles": [
       {
         "network": "LinkedIn",
-        "logo": "/LI-In-Bug.png",
+        "logo": "LI-In-Bug.png",
         "username": "kakitkelvinho",
         "url": "https://www.linkedin.com/in/kakitkelvinho/"
       },
       {
         "network": "GitHub",
-        "logo": "/github-mark.png",
+        "logo": "github-mark.png",
         "username": "kakitkelvinho",
         "url": "https://github.com/kakitkelvinho/"
       },

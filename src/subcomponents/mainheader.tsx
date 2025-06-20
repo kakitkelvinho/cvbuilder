@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/cvbuilder' : '';
 type Profile = {
   network: string;
   logo?: string;
@@ -40,7 +41,7 @@ export default function MainHeader({ basics }: { basics: Basics }) {
           </div>
         </div>
         <Image
-          src={basics.image}
+          src={`${basePath}/${basics.image}`}
           alt="Portrait picture"
           width={100}
           height={100}
@@ -56,7 +57,7 @@ function LogoRender({ profile }: { profile: Profile }) {
   if (profile.logo) {
     return (
       <Image
-        src={profile.logo}
+        src={`${basePath}/${profile.logo}`}
         alt={`${profile.network} logo`}
         width={16}
         height={16}
