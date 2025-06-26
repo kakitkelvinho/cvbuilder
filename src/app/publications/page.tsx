@@ -26,7 +26,10 @@ export default function Publications() {
         </ol>
       </div>
       <div className="py-6 text-lg">
-        <p className="py-2">I completed my master's thesis at University College London under the supervision of Professor Peter Barker. The thesis can be found <a href={`${basePath}/THESIS_Kelvin.pdf`} className="text-blue-500">here</a>. The work I have completed has also be incorporated in publications 2 and 3 listed above.</p>
+        <p className="py-2">
+          I completed my master&#39;s thesis at University College London under the supervision of Professor Peter Barker.
+          The thesis can be found <a href={`${basePath}/THESIS_Kelvin.pdf`} className="text-blue-500">here</a>.
+          The work I have completed has also be incorporated in publications 2 and 3 listed above.</p>
         <p className="py-2">
           Due to COVID-19, I returned to Hong Kong in April 2020, halfway through my first year of undergraduate, and had the honor of working in the State Key Lab of Terahertz and Millimeter Waves.
           My time there has culminlated with a research project which resulted in the first publication listed above.
