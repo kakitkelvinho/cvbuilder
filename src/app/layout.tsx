@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Lato } from 'next/font/google';
+import NavBar from "@/components/navbar";
 
 const lato = Lato({
   subsets: ['latin'],
@@ -17,12 +18,20 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const routes = [
+    { name: "Home", link: "/" },
+    { name: "Publications", link: "/publications" }
+  ]
   return (
     <html lang="en" className={lato.className}>
       <body
         className="mx-2 md:mx-12 lg:mx-24 antialiased"
       >
-        {children}
+        <NavBar routes={routes} />
+        <div className="pt-14">
+          {children}
+        </div>
       </body>
     </html>
   );

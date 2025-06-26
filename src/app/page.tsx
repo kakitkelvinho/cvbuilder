@@ -7,6 +7,7 @@ import Languages from "@/components/languages";
 import Skills from "@/components/skills";
 
 export default function Home() {
+
   return (
     <>
       <MainHeader basics={resume.basics} />
