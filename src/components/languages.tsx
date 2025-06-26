@@ -24,7 +24,7 @@ export default function Languages({ languages }: { languages: LanguageFormat[] }
       {
         fluencyGroupSort.map((group: { fluency: string, languages: string[] }, index: number) => {
           return (
-            <p key={index}>{group.fluency}: {group.languages.join(", ")}</p>
+            <p key={index}><span className="font-bold">{group.fluency}</span>: {group.languages.join(", ")}</p>
           );
         })
       }
