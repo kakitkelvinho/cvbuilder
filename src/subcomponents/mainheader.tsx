@@ -22,7 +22,8 @@ type Basics = {
 export default function MainHeader({ basics }: { basics: Basics }) {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between items-center py-2 border-b border-gray-300  print:flex-row print:items-start print:gap-8 print:pb-4">
+      <div className="flex flex-col md:flex-row justify-between items-center py-2 border-b border-gray-300  
+        print:flex-row print:items-start print:gap-8 print:pb-4 print:mt-0">
         <div className="text-center md:text-left">
           <h1 className="text-5xl font-bold">{basics.name}</h1>
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2 text-sm">
@@ -45,8 +46,8 @@ export default function MainHeader({ basics }: { basics: Basics }) {
           alt="Portrait picture"
           width={100}
           height={100}
-          style={{ width: '15%', height: 'auto' }}
-          className="mt-4 md:mt-0 shrink-0 print:mt-0 print:mx-2"
+          className="mt-4 md:mt-0 shrink-0 print:my-0 print:py-0 print:mx-2 h-[250px] w-auto 
+          object-contain print:h-[160px] print:w-auto"
         />
       </div>
     </>

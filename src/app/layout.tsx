@@ -29,7 +29,7 @@ export default function RootLayout({
         className="mx-2 md:mx-12 lg:mx-24 antialiased"
       >
         <NavBar routes={routes} />
-        <div className="pt-14">
+        <div className="pt-14 print:pt-0">
           {children}
         </div>
       </body>
